@@ -13,7 +13,7 @@ public class ITECCourseManager {
         maintenanceCourse.addStudent("Carl");
 
         maintenanceCourse.writeCourseInfo();
-
+//tuyty
         ITECCourse datacomCourse =
                 new ITECCourse("Data Communications", 1425, 30);
 
