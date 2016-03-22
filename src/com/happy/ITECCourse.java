@@ -13,6 +13,14 @@ public class ITECCourse {
     private int code;
     private ArrayList<String> students;
     private int maxStudents;
+    public String getCourseName(){
+        return this.name;
+    }
+
+    public void setCourseName(String newName) {
+        this.name = newName;
+    }
+
 
     //Constructor
     public ITECCourse(String courseName, int courseCode, int courseMaxStudents) {
